@@ -1,0 +1,22 @@
+{
+  "name": "@victor-reina/skills-publish-packages",
+  "version": "1.0.0",
+  "description": "<header>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victor-reina/skills-publish-packages.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victor-reina/skills-publish-packages/issues"
+  },
+  "homepage": "https://github.com/victor-reina/skills-publish-packages#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/victor-reina"
+  }
+}
