@@ -15,7 +15,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: lts/gallium
-          registry-url: 'https://npm.pkg.github.com/victor-reina' # This sets up .npmrc for the publish step
+          registry-url: 'https://npm.pkg.github.com' # This sets up .npmrc for the publish step
 
       - name: Publish
         run: npm publish
