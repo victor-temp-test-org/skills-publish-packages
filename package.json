@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/victor-temp-test-org/skills-publish-packages#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/victor-temp-test-org/"
+    "registry": "https://npm.pkg.github.com"
   }
 }
