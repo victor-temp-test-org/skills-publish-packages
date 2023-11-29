@@ -6,8 +6,6 @@ on:
       
 jobs:
   build:
-    permissions:
-      packages: write
     runs-on: self-hosted
     steps:
       - name: Checkout 🛎️

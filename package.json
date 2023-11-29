@@ -1,6 +1,6 @@
 {
   "name": "@victor-temp-test-org/skills-publish-packages",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "<header>",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/victor-temp-test-org/skills-publish-packages#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/victor-temp-test-org"
   }
 }
