@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/victor-reina/skills-publish-packages#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/victor-reina"
+    "registry": "https://npm.pkg.github.com/victor-temp-test-org"
   }
 }
