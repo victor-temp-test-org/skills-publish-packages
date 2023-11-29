@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/victor-reina/skills-publish-packages.git"
+    "url": "git+https://github.com/victor-temp-test-org/skills-publish-packages.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/victor-reina/skills-publish-packages/issues"
+    "url": "https://github.com/victor-temp-test-org/skills-publish-packages/issues"
   },
-  "homepage": "https://github.com/victor-reina/skills-publish-packages#readme",
+  "homepage": "https://github.com/victor-temp-test-org/skills-publish-packages#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/victor-temp-test-org"
+    "registry": "https://npm.pkg.github.com/victor-temp-test-org/"
   }
 }
