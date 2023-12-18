@@ -25,3 +25,16 @@ jobs:
         run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout signals
+        uses: actions/checkout@v4
+        with:
+          repository: victor-temp-test-org/demo-repository
+          ref: main
+          path: signals
+          token: ${{ secrets.SIGNALS_TOKEN }} # token with write access to signals repo
+
+      - name: Update signals version of sdf-components
+        run: |
+          cd signals
+          yarn add "@victor-temp-test-org/skills-publish-packages@${{ steps.version.outputs.VERSION }} " --non-interactive
