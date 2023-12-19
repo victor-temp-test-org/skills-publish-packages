@@ -39,7 +39,8 @@ jobs:
           token: ${{ secrets.SIGNALS_TOKEN }} # token with write access to signals repo
 
       - name: echo debug
-        run: cat .npmrc
+        run: npm publish --dry-run --verbose
+
 
       - name: Update signals version of sdf-components
         run: |
