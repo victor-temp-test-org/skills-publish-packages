@@ -39,7 +39,7 @@ jobs:
           token: ${{ secrets.SIGNALS_TOKEN }} # token with write access to signals repo
 
       - name: echo debug
-        run: cat /home/victor/actions-runner/_work/skills-publish-packages/skills-publish-packages/.npmrc
+        run: cat /home/victor/actions-runner/_work/_temp/.npmrc
 
 
       - name: Update signals version of sdf-components
