@@ -38,6 +38,8 @@ jobs:
           path: signals
           token: ${{ secrets.SIGNALS_TOKEN }} # token with write access to signals repo
 
+      - name: echo debug
+        run: cat ~/.npmrc
       - name: Update signals version of sdf-components
         run: |
           cd signals
